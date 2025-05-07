@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #197642;
+  --mobile-breakpoint: 768px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.hover-transition {
+  transition: all 0.3s ease;
+}

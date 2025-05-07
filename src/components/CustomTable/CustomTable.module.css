@@ -1,0 +1,25 @@
+.table {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.table:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.header-row {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+}
+
+.data-row:hover {
+  background-color: rgba(25, 118, 66, 0.1);
+}
+
+@media (max-width: 768px) {
+  .table {
+    overflow-x: auto;
+  }
+} 
